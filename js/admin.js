@@ -19,17 +19,17 @@
 	Rtcamp.Models.Admin = Backbone.Model.extend({
 
 	    defaults: {
-	        php_function         : '',
-	        slide_title_name     : '',
-	        slide_title 	     : '',
-	        image_src 		     : '',
-	        image_src_name       : '',
-	        slide_content 	     : '',
-	        slide_content_name   : '',
-	        slide_permalink_name : '',
-	        slide_permalink 	 : '',
-	        slide_number 		 : '',
-	        total_slides 		 : ''
+			php_function         : '',
+			slide_title_name     : '',
+			slide_title          : '',
+			image_src            : '',
+			image_src_name       : '',
+			slide_content        : '',
+			slide_content_name   : '',
+			slide_permalink_name : '',
+			slide_permalink      : '',
+			slide_number         : '',
+			total_slides         : ''
 
 	    },
 

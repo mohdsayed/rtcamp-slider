@@ -106,11 +106,11 @@
 	    setInputNames : function( key )
 	    {
 	    	this.model
-	    	.set( 'image_src_name'		 , 'rtc-slider-settings[slides][slide_number][image_src]'.replace( 'slide_number', key ) )
-	    	.set( 'slide_title_name' 	 , 'rtc-slider-settings[slides][slide_number][title]'.replace( 'slide_number', key ) 	 )
-	    	.set( 'slide_content_name'   , 'rtc-slider-settings[slides][slide_number][content]'.replace( 'slide_number', key ) 	 )
-	    	.set( 'slide_permalink_name' , 'rtc-slider-settings[slides][slide_number][permalink]'.replace( 'slide_number', key ) )
-	    	.set( 'slide_number' 	  	 , key        										   )
+	    	.set( 'image_src_name'		, 'rtc-slider-settings[slides][slide_number][image_src]'.replace( 'slide_number', key ) )
+	    	.set( 'slide_title_name'	, 'rtc-slider-settings[slides][slide_number][title]'.replace( 'slide_number', key ) 	)
+	    	.set( 'slide_content_name'	, 'rtc-slider-settings[slides][slide_number][content]'.replace( 'slide_number', key ) 	)
+	    	.set( 'slide_permalink_name', 'rtc-slider-settings[slides][slide_number][permalink]'.replace( 'slide_number', key ) )
+	    	.set( 'slide_number'		, key 																					)
 	    	;
 	    	return this;
 	    },
@@ -120,7 +120,7 @@
     	    e.preventDefault();
 
     	    var custom_uploader, $this, $currentGroup, attachment, $sliderPreview, $previewImage;
-			
+
 			$this         = $(e.currentTarget);
 			$currentGroup = $this.closest('.group');
 

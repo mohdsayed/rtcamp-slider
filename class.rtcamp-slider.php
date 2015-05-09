@@ -115,20 +115,20 @@ class Rtcamp_Slider
 	public function get_slides()
 	{
 		$this->default_slides = array(
-								'slides' => array(
-									array(
-										'image_src' => RTCAMP_SLIDER__PLUGIN_URL . 'images/demo-1.jpg',
-										'title'     => __( 'Demo Slide One' , 'rtcamp' ),
-										'content'   => '',
-										'permalink' => '',
-									 	 ),
-									array(
-										'image_src' => RTCAMP_SLIDER__PLUGIN_URL . 'images/demo-2.jpg',
-										'title'     => __( 'Demo Slide Two' , 'rtcamp' ),
-										'content'   => '',
-										'permalink' => '',
-									 	 )
-									)
+			'slides' => array(
+				array(
+					'image_src' => RTCAMP_SLIDER__PLUGIN_URL . 'images/demo-1.jpg',
+					'title'     => __( 'Demo Slide One' , 'rtcamp' ),
+					'content'   => '',
+					'permalink' => '',
+				 	 ),
+				array(
+					'image_src' => RTCAMP_SLIDER__PLUGIN_URL . 'images/demo-2.jpg',
+					'title'     => __( 'Demo Slide Two' , 'rtcamp' ),
+					'content'   => '',
+					'permalink' => '',
+				 	 )
+				)
 								);
 		$this->slider_settings = (array) get_option( $this->slider_options_name , apply_filters( 'rtcamp_slider_default_slides' , $this->default_slides ) );
 		$this->slides = ( isset( $this->slider_settings['slides'] ) ) ? $this->slider_settings['slides'] : false ;

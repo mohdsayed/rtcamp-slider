@@ -86,7 +86,7 @@
 	    		$slideFields = $(this).find('.slide-fields');
 
 	    		 _this.model
-	    		 .set( 'image_src' 		 , $slideFields.find('.image-src-input').val()  )
+	    		 .set( 'image_src'		 , $slideFields.find('.image-src-input').val()  )
 	    		 .set( 'slide_title'     , $slideFields.find('.title-input').val() 	 	)
 	    		 .set( 'slide_content'   , $slideFields.find('.content-input').val()    )
 	    		 .set( 'slide_permalink' , $slideFields.find('.permalink-input').val()  )

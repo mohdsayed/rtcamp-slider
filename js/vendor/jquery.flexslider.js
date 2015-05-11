@@ -1200,6 +1200,8 @@
     var $rtcSliderDiv = $('.rtc-slider'),
     $targetDiv = $rtcSliderDiv.find('.flexslider');
 
+    $rtcSliderDiv.width( $rtcSliderDiv.data('slider-width') );
+
     $targetDiv.flexslider({
       animation: $rtcSliderDiv.data('slider-animation'),
       start: function(slider){

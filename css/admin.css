@@ -103,11 +103,14 @@
 	min-height: 200px;
 	min-width: 30%;
 	max-width: 100%;
-	background: url(../images/loader.gif);
 	background-repeat: no-repeat;
 	background-position: 30% 50%;	
 	display: none;
 	overflow: hidden;
+	float: none;
+	width: auto;
+	height: auto;
+	opacity: 1;
 }
 
 .rtcamp .slider-preview img{

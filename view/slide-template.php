@@ -7,12 +7,10 @@
 
     <section class="content clearfix" >
 
-		<div class="slider-preview">
-			<span class="loader2"></span>
+		<div class="slider-preview spinner">
 			<% if(image_src){ %>
 			<img width="" height="" class="slider-image" src="<%= image_src %>" alt="">
 			<% } %>
-			<input type="hidden" class="slider-image-input" value="" >
 		</div>
 
 		<div class="slider-fields clearfix">

@@ -1,5 +1,5 @@
 
-<section class="rtc-slider <?php echo $align; ?>" data-slider-animation="<?php echo $animation ?>" style="width:<?php echo $width; ?>;" >
+<section class="rtc-slider <?php echo $align; ?>" data-slider-animation="<?php echo $animation ?>" data-slider-width="<?php echo $width; ?>">
   <div class="flexslider">
     <ul class="slides">
     	<?php if( $slides ) : foreach ( $slides as $key => $slide ) :  ?>
